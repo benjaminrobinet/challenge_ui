@@ -5,6 +5,9 @@ body{
   background-color: $bgcolor;
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
 }
 
 img{
@@ -31,6 +34,9 @@ header{
     align-items: center;
     margin: 0;
     padding-left: 100px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 35pt;
+    font-weight: 900;
   }
 
   nav{
@@ -39,12 +45,35 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: $lightclay;
+    padding: 0 5vw;
 
     div {
       padding: 0 10px;
       text-decoration: none;
+
+      a{
+        text-decoration: none;
+        font-size: 16pt;
+        color: #adadad;
+
+        &.active{
+          color: #000000;
+          display: block;
+          position: relative;
+
+          &::after{
+            content: ' ';
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 100%;
+            height: 2px;
+            background-color: #000000;
+          }
+        }
+      }
     }
   }
 }
@@ -62,48 +91,82 @@ div.content-wrapper{
       justify-content: center;
       height: 100%;
 
-
       div{
         transform: rotate(-90deg);
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100px;
+        height: 150px;
         a{
           text-decoration: none;
+          font-size: 16pt;
+          color: #adadad;
+          transition: color 0.2s linear;
+
+          &:hover{
+            color: #000000;
+          }
         }
       }
     }
   }
 
-  main article{
-    display: flex;
+  main{
+    margin-bottom: 100px;
 
-    section:nth-of-type(2){
-      background-color: $lightclay;
-      margin-bottom: 100px;
+    article{
+      display: flex;
 
-      h2{
-        margin-left: -100px;
+      div.img-wrapper{
+        text-align: right;
       }
 
-      div.content{
+      section:nth-of-type(2){
+        background-color: $lightclay;
+        margin-bottom: 50px;
         position: relative;
-        padding: 5vw;
 
-        a.next{
-          content: ' ';
-          position: absolute;
-          bottom: -20px;
-          width: 50px;
-          height: 50px;
-          background-color: black;
+        h2{
+          margin-left: -100px;
+          margin-top: 10vh;
+          font-family: "Playfair Display", sans-serif;
+          font-size: 55pt;
+        }
+
+        div.content{
+
+          padding: 5vw;
+
+          h3{
+            font-size: 24pt;
+            font-weight: 600;
+          }
+
+          p{
+            font-size: 18pt;
+          }
+
+          a.next{
+            font-size: 40px;
+            line-height: 40px;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            position: absolute;
+            bottom: -50px;
+            right: 5vw;
+            width: 85px;
+            height: 85px;
+            background-color: black;
+          }
         }
       }
-    }
 
-    div.img-wrapper{
-      width: 50vw;
+      div.img-wrapper{
+        width: 50vw;
+      }
     }
   }
 }
