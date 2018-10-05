@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a1da6ec-6e0e-4d43-8b3c-809e180bf582" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/_var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/_var.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/assets/scss/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/assets/scss/mobile.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-    </list>
+    <list default="true" id="0a1da6ec-6e0e-4d43-8b3c-809e180bf582" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -187,7 +178,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -325,12 +316,12 @@
       <workItem from="1538559503713" duration="4943000" />
       <workItem from="1538590171404" duration="622000" />
       <workItem from="1538612176934" duration="401000" />
-      <workItem from="1538719599169" duration="7569000" />
+      <workItem from="1538719599169" duration="8204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18191000" />
+    <option name="totallyTimeSpent" value="18826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="437" y="23" width="1003" height="826" extended-state="0" />
